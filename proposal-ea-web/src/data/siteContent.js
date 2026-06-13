@@ -105,7 +105,7 @@ export const companyDetails = [
   },
   {
     label: 'Email',
-    value: 'noscireolavera@gmail.com',
-    href: 'mailto:noscireolavera@gmail.com',
+    value: '#######@gmail.com',
+    href: 'mailto:noscireolavera@example.com',
   },
 ]
