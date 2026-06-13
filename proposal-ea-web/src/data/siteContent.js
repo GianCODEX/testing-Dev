@@ -89,7 +89,7 @@ export const achievements = [
 export const companyDetails = [
   {
     label: 'Sole Proprietor/Owner',
-    value: 'Ericson De Jesus Arevalo',
+    value: '#######',
   },
   {
     label: 'Established date',
@@ -101,11 +101,11 @@ export const companyDetails = [
   },
   {
     label: 'Mobile numbers',
-    lines: ['Smart - 09494158448', 'Globe - 09064639043'],
+    lines: ['Smart - #######', 'Globe - #######'],
   },
   {
     label: 'Email',
     value: '#######@gmail.com',
-    href: 'mailto:noscireolavera@example.com',
+    href: 'mailto:#######@example.com',
   },
 ]
