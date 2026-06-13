@@ -1,0 +1,49 @@
+:root {
+  --yellow: #f2ca08;
+  --yellow-deep: #cda300;
+  --ink: #070707;
+  --ink-soft: #171717;
+  --paper: #f1f1f1;
+  --paper-deep: #dddddd;
+  --white: #ffffff;
+  --muted: #dedede;
+  --body: Arial, Helvetica, sans-serif;
+  --display: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Arial Black', sans-serif;
+  --serif-display: Georgia, 'Times New Roman', serif;
+
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100svh;
+}
