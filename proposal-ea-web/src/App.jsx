@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import BrandHeader from './sections/BrandHeader'
 import ServicesOffered from './sections/ServicesOffered'
 import ProjectTypes from './sections/ProjectTypes'
@@ -15,6 +16,7 @@ function App() {
       <AchievementsGallery />
       <ContactBand />
       <CopyrightFooter />
+      <Analytics />
     </main>
   )
 }
