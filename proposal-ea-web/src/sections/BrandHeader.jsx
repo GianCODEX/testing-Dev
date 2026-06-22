@@ -3,7 +3,7 @@ import { company } from '../data/siteContent'
 
 function BrandHeader() {
   return (
-    <section className="brand-section" aria-labelledby="brand-title">
+    <section className="brand-section" id="home" aria-labelledby="brand-title">
       <div className="brand-sign">
         <div className="brand-sign__mark">
           <LogoMark />

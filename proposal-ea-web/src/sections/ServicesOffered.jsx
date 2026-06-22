@@ -2,7 +2,7 @@ import { serviceColumns } from '../data/siteContent'
 
 function ServicesOffered() {
   return (
-    <section className="services-section" aria-labelledby="services-title">
+    <section className="services-section" id="services" aria-labelledby="services-title">
       <div className="section-label">
         <h2 id="services-title">Services Offered</h2>
       </div>

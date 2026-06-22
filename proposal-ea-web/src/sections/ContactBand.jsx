@@ -2,7 +2,7 @@ import { companyDetails } from '../data/siteContent'
 
 function ContactBand() {
   return (
-    <section className="contact-section" aria-labelledby="contact-title">
+    <section className="contact-section" id="contacts" aria-labelledby="contact-title">
       <div className="contact-panel">
         <p className="section-kicker">Company profile</p>
         <h2 id="contact-title">Company Details</h2>
